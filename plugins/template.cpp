@@ -34,16 +34,7 @@ public:
  
 $BEGINCUT$
  
-#include <limits>
-inline bool isnan(double a) {
-        return (std::numeric_limits<double>::quiet_NaN() == a);
-        // return a!=a;
-}
 
-inline bool isinf(double a) {
-        return (std::numeric_limits<double>::infinity() == a);
-}
- 
 $TESTCODE$
  
 $DEFAULTMAIN$
