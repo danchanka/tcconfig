@@ -1,0 +1,2 @@
+# tcconfig
+TopCoder applet configuration
