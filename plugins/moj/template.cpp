@@ -24,18 +24,18 @@
 #include <climits>
 
 using namespace std;
- 
+
 class $CLASSNAME$ {
 public:
-    $RC$ $METHODNAME$($METHODPARMS$) {
-
-    }
+	$RC$ $METHODNAME$($METHODPARMS$) {
+		
+	}
 };
- 
+
 $BEGINCUT$
- 
+
 
 $TESTCODE$
- 
+
 $DEFAULTMAIN$
 $ENDCUT$
