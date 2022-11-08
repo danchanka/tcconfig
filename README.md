@@ -4,7 +4,7 @@
 ## Установка арены (win)
 
 1. Сначала нужно установить [java 8](https://java.com/en/download/). После установки для удобства можно добавить в переменную окружения `path` путь к каталогу `bin` (Например, `C:\Program Files\Java\jdk1.8.0\bin`).
-2. Затем нужно скачать арену, которая представляет собой jnlp-файл. Это можно сделать с [ресурса топкодера](http://topcodr.co/javaarena), а можно скачать из этого [репозитория](https://github.com/danchanka/tcconfig/blob/main/arena/ContestAppletProd.jnlp). 
+2. Затем нужно скачать арену, которая представляет собой jnlp-файл. Это можно сделать с [топкодера](http://topcodr.co/javaarena) или [отсюда](https://www.topcoder.com/contest/arena/ContestAppletProd7.2.jnlp), а можно скачать из этого [репозитория](https://github.com/danchanka/tcconfig/blob/main/arena/ContestAppletProd.jnlp). 
 3. Теперь нужно арену запустить. Если `.jnlp` - файл не проассоциирован с java webstart, то нужно будет запустить из командной строки `javaws ContestAppletProd.jnlp`. При первом запуске, наверняка, будет запрашивать различные разрешения.
 
 За дополнительной информацией и подробностями можно обратиться к этой [статье](https://www.topcoder.com/thrive/articles/setting-up-the-topcoder-java-applet-arena-and-kawigi-editor)
